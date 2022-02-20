@@ -424,6 +424,7 @@ header .Headerin nav .mainMenu{
         padding:10px 100px 10px 10px;}
       
     .qustion input{
+        outline:none;
         padding-right:80px;
         padding-left:30px;
         border:0;
