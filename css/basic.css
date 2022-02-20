@@ -13,6 +13,7 @@ header{
     width:1600px;
 
 }
+ul::after{display: block; content: ""; clear: both;}
 .m_menu{display:none;}
 header .Headerin{
   
@@ -33,6 +34,7 @@ header .Headerin{
         width:39px;
         height:100px;
     }
+    .qustion{display:none;}
 header .Headerin nav{
  
  float:right;

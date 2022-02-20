@@ -3,7 +3,7 @@
 @media (max-width:1400px) {
     header .Headerin nav{
        
-        width:1000px;}
+        width:80%;}
         header .Headerin nav .mainMenu {margin-left: 300px;}
     header .Headerin nav .mainMenu li{
         width:100px;
@@ -34,7 +34,9 @@
       }
    
     
-    .bg{width:90%;
+      .s1 a .bg{
+        float:none;
+        width:90%;
     height:750px;}
     .s1 .grand {left:0;}
     .grand img{width:80%;}
@@ -50,24 +52,35 @@
         top:500px;
         left:40%;
     }
+    .s2{overflow: hidden;}
+    .s2 .pc_list{
+        margin: 100px auto ;
+        overflow: hidden;}
     .s2 ul li.lastbtn{
         margin-left:0;
+        width:10%;
     }
     .swiper{
+        width:90%;
+    }
+  
+    main{
         width:100%;
+        text-align: center;
     }
     .s3{
-        width:1400px;
-    }
-    .s4{
-        width:1400px;
+        width:100%;}
+    .s3 h3{
+        position: absolute; top:0;
+        left:50%;
+        transform: translate(-50%);
     }
     .coll{width:90%;}
     .swiper-slide .cover {
         position: absolute;
         top: 300px;
         background: black;
-        width: 450px;
+        width:410px;
         height: 660px;
         transition: 0.5s;
         box-sizing: border-box;
@@ -80,13 +93,11 @@
     .swiper-slide .cover p{
         font-size: 15px;
     }
-    .s5{
-        width:1400px;
-    }
-    .ftW{width:1400px;}
-    .sns ul{
-        right:10%;
-    }
+  
+    .ftW{width:100%;}
+    .sns ul li a img{
+        width:35px;
+        height:35px;}
     .logo{margin-left:20px;} 
 }
 
@@ -94,20 +105,31 @@
 
 
 @media (max-width:1024px){
-.main{width:1024px;}
+.main{width:100%;}
 header .Headerin h1{
     margin-left: 50px;
+}
+header .Headerin nav .mainMenu{
+    margin-left:0;
+    width:100%; 
+
 }
 .s1 h2 a {left:25%;}
 .s1 p {
     left:30%;
 }
+.s4 .swiper-slide .cover a img {
+    width:60px; 
+    height:60px;
+}
 .s1 .kid{right:20%; }
-.s2 ul{width:1024px;}
+.s2 ul{
+    width:100%;
+}
 .s2 ul li {
     width:30%;
     height:300px;
-    margin-left:20px;;
+    margin-left:10px;;
 }
 .s2 ul li:nth-child(3){
     margin-left:5px;
@@ -115,19 +137,18 @@ header .Headerin h1{
 .s2 ul li.lastbtn{
    display:none;
 }
-.s3{
-    width:1024px;
+.s3{margin: 100px auto;
+    width:100%;
 }
 .swiper-button-next {
     text-indent: -9999px;
-    right:50px;
+    right:10px;
     z-index: 100;
-    top:90%;
-    width:50px;
-    height:50px;
+    top:95%;
+    width:25px;
+    height:25px;
     color: rgb(13, 102, 129);
-    background-color: rgba(175, 190, 248, 0.897);
-    border:2px solid rgb(247, 248, 248);
+    background-color:rgba(0, 0, 0, 0.822);
    
     padding:2px;
 }
@@ -137,27 +158,27 @@ header .Headerin h1{
     text-indent: -9999px;
     padding:2px;
     z-index:200 ;
-    width:50px;
-    height:50px;
+    width:25px;
+    height:25px;
     color: rgb(13, 102, 129);
    
-    background-color:rgba(175, 189, 248, 0.897);
-    border:2px solid rgb(247, 248, 248);
+    background-color:rgba(0, 0, 0, 0.822);
+    
     left:10px;
-    top:90%;
+    top:95%;
 }.swiper-button-prev:after{
-    width:15px; 
-    height:15px; 
-    border:2px solid rgb(5, 89, 138); 
+    width:10px; 
+    height:10px; 
+    border:2px solid rgb(255, 255, 255); 
     transform: rotate(45deg);
     border-top: 0;
     border-right: 0;
     margin-left: 8px;
 }
 .swiper-button-next:after{
-    width:15px; 
-    height:15px; 
-    border:2px solid rgb(5, 89, 138); 
+    width:10px; 
+    height:10px; 
+    border:2px solid rgb(255, 255, 255); 
     transform: rotate(-45deg);
     border-top: 0;
     border-left: 0;
@@ -180,9 +201,12 @@ header .Headerin h1{
             left:160px;
 }
 .s5{
-    width:1024px;
+ width:100%;
 }
-.ftW{width:1024px;}
+.sns ul li a img{
+    width:30px;
+    height:30px;}
+.ftW{width:100%;}
  .sns ul li {
      margin:0 15px;
  }
@@ -199,40 +223,40 @@ header .Headerin h1{
 
 
 @media (max-width:890px){
+
     .s1 a .bg {float:none;
         width:100%;; 
     }
+    header .Headerin nav{
+        float:none;
+        display: block;
+        width:100%;}
+        
     .grand img {
         width: 80%;
     }
+    header .Headerin nav .mainMenu li{width:96px;}
+    header .Headerin nav .mainMenu li a{font-size: 14px;}
     .s1 .kid{right:30%;}
     .s2{display:block;
         width:680px;}
-
-    
+        .s5{  
+        }
      .m_menu{
         
          padding:10px; 
          color:azure;
      }
+     .s2 ul li .menu{font-size: 16px;}
      .s3{
          margin-top:50px;
     width:890px;}
-      .s4{
-          width:890px;
-          
-          
-      }
-      .s4 .swiper-slide a img{
-          height:500px;
-          width:440px;
-      } 
-
+   
     .s2 ul.pc_list{display:block;}
-    .s5{width:890px;}
-    .ftW{width:890px;}
+    .s5{width:100%;}
+    .ftW{width:100%;}
     .logo img {
-        width:250px;
+        width:220px;
         object-fit: contain;
     }
 }
@@ -241,20 +265,35 @@ header .Headerin h1{
 
 @media (max-width:698px){
  .mainMenu{display:none;}
+ header .Headerin{height:100px;}
  .Headerin nav{position: relative;}
+  header .Headerin h1{width:180px; height:80px;
+    background-size: 180px 80px;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+    }
+    main{margin:150px auto 0;
+    width:100%;}
+    .Headerin h1 a span img{
+        margin-top: 0px; 
+        margin-left:70px; 
+        width:29px;
+        height:70px;
+    }
  .ham{position: relative;
     position: absolute;
     right:50px;
-    top:100px;
+    top:50px;
     display:block;
-    width:50px; 
-    height:50px; 
+    width:25px; 
+    height:25px; 
     z-index: 12;
    }
   .btn{display: block;
-      width:50px; 
+      width:25px; 
       border-radius: 2px;
-      height:5px;
+      height:2px;
       background:#08486d;
       position:absolute;
       top:20px;
@@ -265,17 +304,17 @@ header .Headerin h1{
     border-radius: 2px;
     position:absolute;
     content: "";
-    width:50px; 
-    height:5px;
+    width:25px; 
+    height:2px;
     background:#08486d;
     
     
 }
 .btn::before{
-    top:-18px;
+    top:-10px;
 }
 .btn::after{
-    top:18px;
+    top:10px;
 }
 .ham.on{
     top:450px;
@@ -292,28 +331,27 @@ header .Headerin h1{
 }
 .ham.on .btn::after{
     transform: rotate(-45deg);
-    margin-top: -20px;
+    margin-top: -4px;
     transition: 0.3s;
 }
 .m_menu{
-    opacity: 0;
-    display:inline-block;
+   
+    display:block;
     transition: 1s;
     position:absolute;
     top:0;
-    height:800px;
     width:100%; 
-    background:#02243a}
+    text-align: left;
+    background:#ffffff}
     .m_menu ul{
-        display:block;
-        text-align: center;
+       padding:20px;
         margin: 5px 0;
       
         ;
     }
     .m_menu ul li{
-        display:block;
-        margin:20px;
+       
+        margin:10px 0;
         
        
         
@@ -321,33 +359,109 @@ header .Headerin h1{
         
     }
     .m_menu ul li a{
-        color:#fff;
+        
+        color:rgb(7, 7, 7);
     }
     .m_menu ul li a:hover{color:#0d71aa}
     .m_submenu{
-       margin-top: 10px;
-       display:block;
-       border:1px solid rgba(255, 255, 255, 0.425);
+      
+       margin-top:10px;
+      
         
     }
+    .m_submenu li{
+        display:none;
+        float:left;
+        position: relative;
+       }
+       .m_submenu li::before{
+           position: absolute;
+           top:10px;
+           display:block;
+           content:"";
+           width:1px; 
+           height:16px;
+           background:rgba(0, 0, 0, 0.349);
+       }
     .m_submenu li a{
-        display: inline-block;
+        display:inline-block;
         padding:5px;
+        margin:0 6px;
+        font-size:14px;
      }
        .s1 a .bg {
-     width:698px; }
+     width:100%; 
+     height:100%;
+    }
 .grand img {
-    width: 40%;
+    width:100%;
 }
+.btnBox{
+   height:54px;
+   margin:0 auto;
+   display:inline-block;
+   width:100%;
+   text-align:center;
+   
+
+   
+}
+.searchlist{
+
+}
+.qustion{
+    display:inline-block;
+    text-align:center;
+    margin:100px auto 0;}
 .s1 .kid{
-    width:30%;
-    right:50%;}
+    width:100%;
+    right:0%;}
+    form{
+        position: relative;
+        display: inline-block;
+        margin: 0 auto;
+        border:2px solid rgba(0, 0, 0, 0.712);
+        padding:10px 100px 10px 10px;}
+      
+    .qustion input{
+        padding-right:80px;
+        padding-left:30px;
+        border:0;
+        font-size: 14px;
+        
+    }
+ 
+    .swiper-slide .cover{
+        height:500px;
+    } 
+       
+    
+    .qustion_btn{
+        position:absolute;
+        right:10px;
+        background: url("../img/search_icon.png");
+        background-repeat: no-repeat;
+        width:25px;
+        height:25px;
+        background-size: 25px 25px;
+        border:0;
+        text-indent: -9999px;
+    }
+    .searchlist{margin-top: 5px;;}
+    .searchitem{float:left; margin-left:5px;
+        padding:5px;;
+    background: rgb(0, 9, 17);
+  
+  }
+    .searchitem a{
+        font-size: 14px;;
+        color:#fff;}
 .s1 h2 a{
-        top:380px;
+        top:30%;
         left:10%;
         font-size:40px;;
     }  
-.s1 p{
+.s1 p{ top:45%;
         left:12%;
         font-size:20px;;
     }  
@@ -355,52 +469,109 @@ header .Headerin h1{
 .s2_1{margin: 200px 0;
     display:block;
     position: relative;}
-.m_s2_list ul li{
-        float:left;
-        width:25%;
-        height:250px;
-    }
+
 .m_s2_list{
     display:block;
-    text-align: center;
+    text-align:center;
     height:400px;
-    width:680px;
+    width:100%;
   }
-    .m_s2_list ul{display: block;}
+  menu{display: block;}
     .m_s2_list ul li{
+        position: relative;
         width:50%;
-        padding:-10px;
+        padding:10px;
+        height:250px;
+        float:left;
         box-sizing: border-box;
+        overflow: hidden;
+    }
+    .m_s2_list ul li:hover img{
+        transform: scale(1.12);
+        transition: 1s;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .m_s2_list .menu{ 
+        padding:5px;
+        position: absolute;
+        top:0;
+        left:0;
+        background: #080808;
+        display: inline-block;
+        font-size: 14px;
+        color:#fff;
+        width:30%;
+        
+    } 
+    .m_s2_list ul li p{font-size: 14px;
+    letter-spacing: -1.5px;}
+    .s4{
+        display:none;
+        
+        
+    }
+    .m_s4{
+      margin-top: 100px;;  
+      display:block;
+      text-align: center;}
+      
+  .moll .swiper-slide{
+      width:500px;
+      height:500px;
+  }
+  .moll .swiper-slide a img{
+      object-fit: contain;
+      width:500px;
+      height:500px;
+  }
+  .m_s4 h3{margin:50px 0;}
+ 
+
+    .m_s2_list .lastbtn a{
+        position: absolute;
+        bottom:100px;
+        color:#08486d;
+        padding:5px;
+        font-size: 14px;;
+        border-bottom: 1px solid #02243a;;
     }
 .s3{position: relative;;
-    width:698px; 
-    margin-top:200px;}
+    width:100%; 
+    margin-top:450px;}
     .m_menu{color:#333;}
-    .se_btn{
-    border-radius: 10px;
-    all:unset;
-    cursor: pointer;
-    border:0;
-    width:70%;
-    height:70%;
-    margin-left:0px;
-    background: #c2c2c285;
-    box-shadow: 0px 1px 3px #02243a;}
+    .m_s2_list ul li{
+        width:100%;
+        float:none;
+        height:220px;}
 
- 
-    .se_btn>a{color:#02243a;
-    font-size: 20px;}
-    .s4{width:680px;}
-    .s5{width:680px;
+
+    .s5{width:100%;
+        
+        background: rgb(190, 190, 190);
     }
-    .s5 div.newW{width:500px;}
+    .s5 h3{font-size: 25px; 
+           color:#000;;}
+    .s5 div.newW{width:100%;}
     .s5 a{display:none;}
-    .ftW{width:500px;}
+    .ftW{width:100%;}
+    .s5 input{
+        border-radius: 10px;
+        border-bottom: 1px solid #02243a;
+    }
+    .s5 button{font-size: 16px;
+        border-radius: 10px;
+        background:rgba(0, 0, 0, 0.329);}
+        .s5 button:hover{
+            background:rgba(0, 0, 0);
+            color:#fff;
+        }
     .logo{
         width:100%;
         float:none;
         text-align: center;
     }
+    .mainttl{font-size: 25px;}
     .add{margin-top: 0;
         width:100%;
         float:none;}
@@ -412,6 +583,14 @@ header .Headerin h1{
         text-align: center;
         float:none;}
         .sns ul{position:static}
+        .sns ul li a img{
+            width:25px; 
+            height:25px;
+        }
+        .m_s2_list .lastbtn a{
+            left:50%;
+            transform: translate(-50%);
+        }
     .ftW:after{display:none;}
 }
 @media (max-width:500px){
@@ -420,11 +599,11 @@ header .Headerin h1{
     }.ham{
         right:30px;
     }
-    .s1{width:500px;
+    .s1{width:100%;
         height:500px;
     }
     .s1 a .bg {
-        width:500px;
+        width:100%;
         height:450px;}
     .s1 h2 a {
             top: 200px;
@@ -443,36 +622,22 @@ header .Headerin h1{
     .s1 .kid{
         width:100%;
         right:10%;}
-        .s2{width:500px;}
+        
     .m_s2_list{width:100%;}
     .m_s2_list ul li{
-        width:500px;
+        width:100%;;
         float:none;
         height:150px;}
     .s3{display:none;}
     .m_s3{
         text-align: center;
         display:block;
-        width:500px;}
+        width:100%}
 
     .m_s3 h3{margin: 50px 0;}
-    .s4{display:none;}
-    .m_s4{
-        text-align: center;
-        display: block;
-        width:500px;
-        height:500px;}
-    .moll .swiper-slide{
-        width:500px;
-        height:500px;
-    }
-    .moll .swiper-slide a img{
-        object-fit: contain;
-        width:500px;
-        height:500px;
-    }
-    .m_s4 h3{margin:50px 0;}
-    .s5{width:500px;
+    
+    
+    .s5{width:100%;
         }
     .s5 h3{margin-top:100px;}
     .s5 a{display:block;
@@ -488,88 +653,67 @@ header .Headerin h1{
     .sns li img{width:30px;
     height:30px;}
 }
-@media (min-width:375px) and (max-width:499px) {
-    header{max-width:390px;
+@media (min-width:260px) and (max-width:499px) {
+    header{max-width:100%;
     }
     header .Headerin h1{
+        margin-top: 10px;
         margin-left:10px;
-        width:200px; height:90px;
-        background-size: 200px 90px;
+        width:180px; height:80px;
+        background-size: 180px 80px;
     }
     .Headerin h1 a span img{
-        margin-top: 25px; 
+        margin-top:15px; 
         margin-left:80px; 
-        width:29px;
-        height:80px;
+        width:19px;
+        height:70px;
     }
     header .Headerin{
-        height:170px;
+        height:80px;
     }
     .ham{
-        top:75px;
-        left:300px;
+        top:30px;
+        right:20%;
     }
-    .m_menu{
-        opacity: 0;
-        display:inline-block;
-        transition: 1s;
-        position:absolute;
-        top:0;
-        height:1000px;
-        width:375px; 
-        background:#02243a}
-        .m_menu ul{
-            display:block;
-            text-align: center;
-            margin: 5px 0;
-          
-            ;
-        }
-        .m_menu ul li{
-            display:block;
-            margin:20px;}
-            
+    form{padding:5px 60px 5px 5px}
+   
   
-    .s1{width:390px;
+    .s1{width:100%;;
         height:500px;
     }
     .s1 a .bg {
         width:100%; }
     .s2_1{margin: 100px 0 200px;
             display:block;
-            width:375px;
             position: relative;}
-        .m_s2_list ul li{
-                width:100%;
-                float:none;
-                height:150px;}
+       
         .m_s3{
-            margin-top: 100px;
+            margin-top: 450px;
             text-align: center;
             display:block;
-            width:375px;}
+        }
         .swiper-button-next{
             right:0;
         }
         .m_s4{
             text-align: center;
             display: block;
-            width:390px;
+            width:100%;
             height:500px;}
         .moll .swiper-slide a img{
                 object-fit: contain;
-                width:375px;
+                max-width:375px;
                 height:500px;
             }
             .m_s4 h3{margin:50px 0;}
             .s5{
-                width:390px;
+                width:100%;
             }
             .s5 div.newW {
-                width:390px;
+                width:100%;;
             }
             footer{
-                width:390px;
+                width:100%
             }
             .ftW {
                 width:390px;
@@ -579,4 +723,10 @@ header .Headerin h1{
                 width:200px; 
                 height:100px;
             }
+            .qustion input{padding-right: 60px;}
+            .searchitem {
+                
+                margin-left: 2px;
+            }
+           
 }
