@@ -336,7 +336,7 @@ header .Headerin nav .mainMenu{
 }
 .m_menu{
    
-    display:block;
+    display:none;
     transition: 1s;
     position:absolute;
     top:0;
