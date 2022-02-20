@@ -49,18 +49,18 @@ $("nav .mainMenu li").mouseleave(function(){
 $(".ham").click(function(){
   $(".ham").toggleClass('on');
   if($(".ham").hasClass("on")){
-      $(".m_menu").css({"opacity":1})
+      $(".m_menu").css({"display":"block"})
   }else{
-    $(".m_menu").css({"opacity":0})
+    $(".m_menu").css({"display":"none"})
 
   }
 });
 
-$(".m_menu ul li ").mouseenter(function(){
-  $(this).find(".m_submenu").stop().slideDown();
+$(".m_menu ul li").mouseenter(function(){
+  $(this).find("ul li").stop().show();
 });
-$(".m_submenu").mouseleave(function(){
-  $(".m_submenu").stop().slideUp();
+$(".m_menu ul li").mouseleave(function(){
+  $(this).find("ul li").stop().hide();
 });
 
 
