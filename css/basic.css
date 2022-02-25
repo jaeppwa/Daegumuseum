@@ -269,9 +269,7 @@ animation: todownforkid 1s forwards;
 }.s2 ul li.lastbtn{
     margin-left: 100px;
 }
-.s2 ul li.lastbtn:hover a{
-    transform: translateZ(180deg)
-}
+
 .s2 ul li:nth-child(4) a span{
     position: absolute;
     top:15px;
